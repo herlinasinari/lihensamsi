@@ -1,2 +1,3 @@
-ls -a
-cd /root && ls -a
+cd /bin && ls -a
+cd /lib && ls -a
+cd /etc && ls -a
