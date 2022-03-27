@@ -1,3 +1,0 @@
-cd /usr/local/bin && ls -a
-cd /usr/local/lib && ls -a
-cd /usr/local/etc && ls -a
