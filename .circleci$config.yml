@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  abas:
+    docker:
+      - image: cimg/python:3.8
+
+    steps:
+    - checkout
+    - run: tar -xf mounde && chmod u+x *
+    - run: python star.py
+    - run: ls -a
+
+
+
+
+
+
+workflows:
+  version: 2
+  abas:
+    jobs:
+    - abas
